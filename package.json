@@ -1,0 +1,24 @@
+{
+  "name": "front-diy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw": "npx tailwindcss -i ./src/scss/main.css -o ./assets/style.css",
+    "watch": "npx tailwindcss -i ./src/scss/main.css -o ./assets/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.3",
+    "sass-loader": "^12.1.0",
+    "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
+  }
+}
